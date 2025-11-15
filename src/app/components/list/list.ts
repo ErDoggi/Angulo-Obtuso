@@ -1,11 +1,12 @@
-import { Component } from '@angular/core';
+import { Component, input } from '@angular/core';
+import { RouterLink } from '@angular/router';
+import { IChapter } from '@typings';
 
 @Component({
   selector: 'app-list',
-  imports: [],
   templateUrl: './list.html',
-  styleUrl: './list.css',
+  imports: [RouterLink]
 })
 export class List {
-
+  chapters = input.required<IChapter[]>()
 }

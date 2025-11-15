@@ -1,0 +1,35 @@
+[{
+  "id": "ch1",
+  "order": "1",
+  "title": "¿Qué es Git?",
+  "subchapters": []
+},
+{
+  "id": "ch2",
+  "order": "2",
+  "title": "Instalación",
+  "subchapters": [{
+    "id": "ch2-1",
+    "order": "2.1",
+    "title": "Windows",
+    "subchapters": []
+  },
+  {
+    "id": "ch2-2",
+    "order": "2.2",
+    "title": "Linux",
+    "subchapters": []
+  },
+  {
+    "id": "ch2-3",
+    "order": "2.3",
+    "title": "MacOS",
+    "subchapters": []
+  }]
+},
+{
+  "id": "ch3",
+  "order": "3",
+  "title": "Primeros pasos",
+  "subchapters": []
+}]

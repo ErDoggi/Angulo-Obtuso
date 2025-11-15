@@ -1,12 +1,14 @@
-import { Component, signal, forwardRef } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { Component, inject } from '@angular/core';
+import { RouterOutlet } from '@angular/router'
+import { ChapterService } from '@services/chapter.service';
+import { List } from '@components/list/list';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet],
-  templateUrl: './app.html',
-  styleUrl: './app.css'
+  imports: [List, RouterOutlet],
+  templateUrl: './app.html'
 })
 export class App {
-  protected readonly title = signal('Me cago en los muertos');
+  chapterService = inject(ChapterService)
+  chapters       = this.chapterService.getAllChapters()
 }
