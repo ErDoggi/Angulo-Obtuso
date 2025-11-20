@@ -10,17 +10,6 @@
     --fondoPrincipal: #e0a49a;
 }
 
-html, body{
+html, body {
     height: 100%;
-}
-
-app-root{
-    display: flex;
-    gap: 20px;
-    height: 100%;
-    padding: 20px;
-    font-family: Lexend;
-}
-aside{
-    max-width: 300px;
 }

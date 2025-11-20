@@ -5,8 +5,9 @@ import { List } from '@components/list/list';
 
 @Component({
   selector: 'app-root',
-  imports: [List, RouterOutlet],
-  templateUrl: './app.html'
+  templateUrl: './app.html',
+  styleUrl: './styles.css',
+  imports: [List, RouterOutlet]
 })
 export class App {
   chapterService = inject(ChapterService)

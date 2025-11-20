@@ -1,9 +1,9 @@
-<aside class="w-100">
+<aside>
     <img src="/git.png" alt="GitLogo">
     <app-list [chapters]=chapters />
 </aside>
-<main class="grow text-xl p-5 [&>*>h1]:text-4xl [&>*>*]:mt-1.5 [&>*>*]:mb-1.5
-    [&>*>*:first-child]:border-b [&>*_a]:text-(--colorPrincipal)">
+<main class="text-xl p-5 [&>*>h1:first-of-type]:text-4xl [&>*>h1:first-of-type]:border-b
+    [&>*>h1:first-of-type]:pb-1.5 [&>*>h1:first-of-type]:mb-1.5 [&>*_a]:text-(--colorPrincipal)">
     <router-outlet/><!--Al tener esta etiqueta nos permitirá renderizar componentes justo debajo-->
     <!--Aqui es donde se mostrará todo el contenido de los componentes de forma dinámica-->
 </main>
