@@ -7,7 +7,7 @@
 
 @theme {
     --color-principal: #DE4C36;
-    --fondo-principal: #e0a49a;
+    --color-fondo: #e0a49a;
 }
 
 html, body {
