@@ -3,7 +3,7 @@
     <app-list [chapters]=chapters />
 </aside>
 <main class="text-xl p-5 [&>*>h1:first-of-type]:text-4xl [&>*>h1:first-of-type]:border-b
-    [&>*>h1:first-of-type]:pb-1.5 [&>*>h1:first-of-type]:mb-1.5 [&>*_a]:text-principal">
+    [&>*>h1:first-of-type]:pb-1.5 [&>*>h1:first-of-type]:mb-1.5 [&>*_a]:text-principal [&>*_a]:not-active:underline [&>*_a]:underline-offset-2">
     <router-outlet/><!--Al tener esta etiqueta nos permitirá renderizar componentes justo debajo-->
     <!--Aqui es donde se mostrará todo el contenido de los componentes de forma dinámica-->
 </main>
