@@ -18,7 +18,8 @@
       "@app/*": ["./src/app/*"],
       "@services/*": ["./src/app/services/*"],
       "@components/*": ["./src/app/components/*"],
-      "@typings": ["./src/app/typings.ts"]
+      "@typings": ["./src/typings.ts"],
+      "@chapters": ["./src/chapters.json"]
     }
   },
   "angularCompilerOptions": {

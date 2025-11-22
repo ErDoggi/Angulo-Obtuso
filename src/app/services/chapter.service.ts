@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
-import { IChapter } from '@app/typings';
-import chapters from '@app/chapters.json';
+import { IChapter } from '@typings';
+import chapters from '@chapters';
 
 @Injectable({
   providedIn: 'root',
